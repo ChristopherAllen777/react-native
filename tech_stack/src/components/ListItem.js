@@ -5,6 +5,7 @@ import { CardSection } from './common';
 class ListItem extends Component {
     render() {
         const { titleStyle } = styles;
+        
         return (
             <CardSection>
                 <Text style={titleStyle}>
